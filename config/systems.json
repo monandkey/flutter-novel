@@ -1,0 +1,14 @@
+{
+    "time_zone": "",
+    "sound": {
+        "volume": "",
+        "bgm": "",
+        "se": "",
+        "voice": ""
+    },
+    "text": {
+        "skip_mode": "",
+        "speed": ""
+    },
+    "auto_save": true
+}

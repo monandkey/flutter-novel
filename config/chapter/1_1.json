@@ -1,0 +1,19 @@
+{
+    "number": "",
+    "title": "",
+    "scenario": [
+        {
+            "number": "",
+            "character": {
+                "name": "",
+                "": ""
+            },
+            "background": "",
+            "text": "",
+            "voice": "",
+            "bgm": "",
+            "effect": "",
+            "branch": true
+        }
+    ]
+}
