@@ -10,9 +10,10 @@ class StartMenuGateway implements IStartMenuGateway {
 
   @override
   StartMenu fetchStartMenu() {
+    final List<String> inputMenuList = menuList.where((element) => element != 'extra').toList();
     StartMenu startMenu = StartMenu(
       "",
-      menuList
+      inputMenuList
     );
     return startMenu;
   }
