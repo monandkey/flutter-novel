@@ -1,6 +1,6 @@
 class Character {
   final String name;
-  final CharacterPattern characterPattern;
+  final List<CharacterPattern> characterPattern;
   final bool specialEncounter;
 
   Character(
