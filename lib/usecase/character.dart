@@ -10,7 +10,7 @@ class CharacterUsecase implements ICharacterUsecase {
 
   @override
   void searchCharacter(String name) {
-    gateway.fetchCharacter(name);
+    character = gateway.fetchCharacter(name);
   }
 
   @override
