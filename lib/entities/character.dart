@@ -19,3 +19,7 @@ class CharacterPattern {
     this.image
   );
 }
+
+abstract class ICharacterUsecase {
+  void searchCharacter();
+}
