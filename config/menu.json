@@ -1,0 +1,34 @@
+{
+    "start_menu": [
+        {
+            "view_name": "New Game",
+            "action": "initial_game",
+            "type": "normal"
+        },
+        {
+            "view_name": "Continue",
+            "action": "load_data",
+            "type": "normal"
+        },
+        {
+            "view_name": "Flowchart",
+            "action": "view_flowcart",
+            "type": "normal"
+        },
+        {
+            "view_name": "Album",
+            "action": "view_album",
+            "type": "normal"
+        },
+        {
+            "view_name": "Extra",
+            "action": "extra",
+            "type": "after_clear"
+        },
+        {
+            "view_name": "Exit",
+            "action": "exit",
+            "type": "normal"
+        }
+    ]
+}
