@@ -21,5 +21,6 @@ class CharacterPattern {
 }
 
 abstract class ICharacterUsecase {
-  void searchCharacter();
+  void searchCharacter(String name);
+  Character getCharacter();
 }

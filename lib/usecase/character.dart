@@ -1,25 +1,22 @@
 import 'package:novel/entities/character.dart';
 
 class CharacterUsecase implements ICharacterUsecase {
-  String name;
-  ICharacterGateway gateway;
-  ICharacterPresenter presenter;
+  final ICharacterGateway gateway;
+  late Character character;
 
   CharacterUsecase(
-    this.name,
     this.gateway,
-    this.presenter
   );
 
   @override
-  void searchCharacter() {
-    Character character = gateway.fetchCharacter(name);
-    presenter.viewCharacter(character);
+  void searchCharacter(String name) {
+    gateway.fetchCharacter(name);
   }
-}
 
-abstract class ICharacterController {
-  Character getCharacter();
+  @override
+  Character getCharacter() {
+    return character;
+  }
 }
 
 abstract class ICharacterGateway {
@@ -27,5 +24,5 @@ abstract class ICharacterGateway {
 }
 
 abstract class ICharacterPresenter {
-  void viewCharacter(Character character);
+  Character getCharacter(String name);
 }
