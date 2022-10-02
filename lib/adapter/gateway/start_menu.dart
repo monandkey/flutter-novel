@@ -10,10 +10,9 @@ class StartMenuGateway implements IStartMenuGateway {
 
   @override
   StartMenu fetchStartMenu() {
-    dynamic data = database.read();
     StartMenu startMenu = StartMenu(
       "",
-      data['start_menu'].map((data) => data['view_name']).toList()
+      menuList
     );
     return startMenu;
   }
