@@ -1,18 +1,13 @@
 {
-    "character_alias": [
+    "name": "",
+    "pattern": [
         {
-            "name": "",
-            "pattern": [
-                {
-                    "alias": "",
-                    "picture": ""
-                },
-                {
-                    "alias": "",
-                    "picture": ""
-                }
-            ]
+            "alias": "",
+            "image": ""
+        },
+        {
+            "alias": "",
+            "image": ""
         }
     ]
 }
-

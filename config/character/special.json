@@ -1,18 +1,14 @@
 {
-    "character_alias": [
+    "name": "",
+    "pattern": [
         {
-            "name": "",
-            "pattern": [
-                {
-                    "alias": "",
-                    "picture": ""
-                },
-                {
-                    "alias": "",
-                    "picture": ""
-                }
-            ],
-            "specialEncounter": true
+            "alias": "",
+            "image": ""
+        },
+        {
+            "alias": "",
+            "image": ""
         }
-    ]
+    ],
+    "specialEncounter": true
 }
