@@ -3,7 +3,6 @@ import 'package:novel/usecase/character.dart';
 
 class CharacterPresenter implements ICharacterPresenter {
   final ICharacterGateway gateway;
-  late Character character;
 
   CharacterPresenter(
     this.gateway
